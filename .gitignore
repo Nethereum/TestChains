@@ -1,0 +1,9 @@
+geth-clique-linux/devChain/geth/*
+geth-clique-linux/devChain/history
+geth-clique-windows/devChain/geth/*
+geth-clique-windows/devChain/history
+geth-clique-mac/devChain/geth/*
+geth-clique-mac/devChain/history
+parity-poa-linux/parity0/chains/*
+parity-poa-mac/parity0/chains/*
+parity-poa-windows/parity0/chains/*
