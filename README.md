@@ -27,13 +27,11 @@ Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of 
 
 ### - Windows
 
-> npm install -g parity-cli
-
->       > parity-windows > launch.bat
+>       > parity-poa-windows > launch.bat
 
 ### - Mac
 
->       > parity-mac > launch.sh
+>       > parity-poa-mac > launch.sh
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
