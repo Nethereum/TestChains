@@ -37,7 +37,7 @@ Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth t
 
 ### - Linux
 
->       > parity-linux > launch.sh
+>       > parity-poa-linux > launch.sh
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
