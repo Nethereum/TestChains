@@ -43,5 +43,19 @@ Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth t
 
 ## Ganache
 ___
+
+parity-poa-windows
+
 CLI version of Truffle's devchain.
-Wip
+
+### Windows
+npm install -g ganache-cli
+>   ganache-windows    > launch.bat
+
+### Mac
+npm install -g ganache-cli
+>  ganache-mac    > ./launch.sh
+
+### Linux
+npm install -g ganache-cli
+>   ganache-linux    > ./launch.sh
