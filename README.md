@@ -59,3 +59,12 @@ npm install -g ganache-cli
 ### Linux
 npm install -g ganache-cli
 >   ganache-linux    > ./launch.sh
+
+## Quorum
+___
+
+Quorum setup in draft mode.
+
+### Linux
+
+>   quorum-linux    > ```./setup.sh``` ```./launch.sh```
