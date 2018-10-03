@@ -13,18 +13,23 @@ Devchain version of Geth (Ethereum Go client) configured with PoA (Proof of Auth
 
 >       > geth-clique-windows > startgeth.bat
 
+Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
+
 ### - Mac
 
 >       > geth-clique-mac > startgeth.sh
 
 Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth to execute.
 
+Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
 ### - Linux
 
 >       > geth-clique-linux > startgeth.sh
 
 Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth to execute.
 
+
+Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
 ## Parity
 ___
 Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of Authority) for fast reponse.
@@ -33,9 +38,14 @@ Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of 
 
 >       > parity-poa-windows > launch.bat
 
+Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
+
 ### - Mac
 
 >       > parity-poa-mac > launch.sh
+
+Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
+
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
@@ -44,6 +54,8 @@ Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth t
 >       > parity-poa-linux > launch.sh
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
+
+Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
 ## Ganache
 ___
