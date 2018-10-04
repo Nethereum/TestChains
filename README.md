@@ -2,8 +2,15 @@
 
 Blockchain developing often requires to run a local Blockchain client (AKA: TestChain). This is to make sure your work remains private and that any sent transaction gets a fast response.
 
-In order to speed up the process, this repo contains all you need to spin up a local TestChain in a few minutes. Each of these chains uses PoA (Proof of Authority) as a consensus model for faster response. They all launch using provided scripts, automatically provided with accounts and passwords (accounts details can be found [here](https://github.com/Nethereum/TestChains/blob/master/accountInfo.txt)).
+In order to speed up the process, this repo contains all you need to spin up a local TestChain in a few minutes. Each of these chains uses PoA (Proof of Authority) as a consensus model for faster response. They all launch using provided scripts, automatically provided with accounts and passwords. 
 
+Accounts details are: 
+privateKey = "0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7";
+senderAddress = "0x12890d2cce102216644c59daE5baed380d84830c";
+password = "password";
+
+var otherAddress = "0x13f022d72158410433cbd66f5dd8bf6d2d129924"; 
+-
 
 ## Geth
 ___
