@@ -31,6 +31,7 @@ Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downl
 
 Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth to execute.
 
+>       > ./startgeth.sh
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
 ## Parity
