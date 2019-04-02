@@ -6,7 +6,9 @@
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 0,
     "eip158Block": 0,
-    "byzantiumBlock": 0,
+	"byzantiumBlock": 0,
+	"constantinopleBlock": 0,
+	"petersburgBlock": 0,
     "daoForkSupport": true,
     "clique": {
       "period": 1,
@@ -794,10 +796,10 @@
       "balance": "0x9000000000000000000000000000000"
     },
     "12890d2cce102216644c59dae5baed380d84830c": {
-      "balance": "0x90000000000000000000"
+      "balance": "0x900000000000000000000000000000000"
     },
     "0xE65B318b9dECf504d1cb6Ea5C367Ca657a070Db1":{
-      "balance": "0x10000000000000000000"
+      "balance": "0x1000000000000000000000000000000"
     }
   }
 }
