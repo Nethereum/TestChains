@@ -7,9 +7,9 @@ geth-clique-mac/devChain/history
 parity-poa-linux/parity0/chains/*
 parity-poa-mac/parity0/chains/*
 parity-poa-windows/parity0/chains/*
-pantheon-linux/pantheon-1.1.0/Clique-Network/Node-1/data/database/*
-pantheon-linux/pantheon-1.1.0/Clique-Network/Node-2/data/database/*
-pantheon-linux/pantheon-1.1.0/Clique-Network/Node-3/data/database/*
+pantheon-linux/Clique-Network/Node-1/data/database/*
+pantheon-linux/Clique-Network/Node-2/data/database/*
+pantheon-linux/Clique-Network/Node-3/data/database/*
 pantheon-windows/pantheon-1.1.0/Clique-Network/Node-1/data/database/*
 pantheon-windows/pantheon-1.1.0/Clique-Network/Node-2/data/database/*
 pantheon-windows/pantheon-1.1.0/Clique-Network/Node-3/data/database/*
