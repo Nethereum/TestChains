@@ -10,6 +10,6 @@ parity-poa-windows/parity0/chains/*
 pantheon-linux/Clique-Network/Node-1/data/database/*
 pantheon-linux/Clique-Network/Node-2/data/database/*
 pantheon-linux/Clique-Network/Node-3/data/database/*
-pantheon-windows/pantheon-1.1.0/Clique-Network/Node-1/data/database/*
-pantheon-windows/pantheon-1.1.0/Clique-Network/Node-2/data/database/*
-pantheon-windows/pantheon-1.1.0/Clique-Network/Node-3/data/database/*
+pantheon-windows/Clique-Network/Node-1/data/database/*
+pantheon-windows/Clique-Network/Node-2/data/database/*
+pantheon-windows/Clique-Network/Node-3/data/database/*
