@@ -34,6 +34,7 @@ Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth 
 >       > ./startgeth.sh
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
+
 ## Parity
 ___
 Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of Authority) for fast reponse.
@@ -50,6 +51,33 @@ Latest versions of Parity can be downloaded [here](https://github.com/paritytech
 
 Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
+
+Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
+
+### - Linux
+
+>       > parity-poa-linux > launch.sh
+
+Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
+
+Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
+
+## Pantheon
+___
+Ethereum client developed written in Java. Pantheon implements Proof of Work (Ethash) and Proof of Authority (IBFT 2.0 and Clique) consensus mechanisms.
+Pantheon supports enterprise features including privacy and permissioning.
+
+### - Windows
+
+>       > parity-poa-windows > startChain.bat
+
+Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
+
+### - Mac/Linux
+
+>       > pantheon-IBFT-linux-mac > startChain.sh
+
+Latest versions of Parity can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
