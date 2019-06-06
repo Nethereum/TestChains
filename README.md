@@ -67,28 +67,34 @@ ___
 Ethereum client developed written in Java. Pantheon implements Proof of Work (Ethash) and Proof of Authority (IBFT 2.0 and Clique) consensus mechanisms.
 Pantheon supports enterprise features including privacy and permissioning.
 
+### Clique PoA
+
 ### - Windows
 
->       > parity-poa-windows > startChain.bat
+>       > pantheon-clique-windows > startChain.bat
 
-Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
+Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+
+### - Mac/Linux
+
+>       > pantheon-clique-linux-mac > startChain.sh
+
+Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+
+### IBFT PoA
+
+### - Windows
+
+>       > pantheon-IBFT-windows > startChain.bat
+
+Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
 
 ### - Mac/Linux
 
 >       > pantheon-IBFT-linux-mac > startChain.sh
 
-Latest versions of Parity can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
-
-Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
-
-### - Linux
-
->       > parity-poa-linux > launch.sh
-
-Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
-
-Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
-
+Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+ 
 ## Ganache
 ___
 
