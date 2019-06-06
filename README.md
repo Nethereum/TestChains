@@ -97,16 +97,37 @@ parity-poa-windows
 CLI version of Truffle's devchain.
 
 ### Windows
-npm install -g ganache-cli
+`npm install ganache-cli@latest`
+or
+`yarn add ganache-cli@latest`
 >   ganache-windows    > launch.bat
 
 ### Mac
-npm install -g ganache-cli
+`npm install ganache-cli@latest`
+or
+`yarn add ganache-cli@latest`
 >  ganache-mac    > ./launch.sh
 
 ### Linux
-npm install -g ganache-cli
+`npm install ganache-cli@latest`
+or
+`yarn add ganache-cli@latest`
 >   ganache-linux    > ./launch.sh
+
+
+## Pantheon
+
+[Pantheon](https://docs.pantheon.pegasys.tech/en/stable) is an open-source Ethereum client, it supports enterprise features including privacy and permissioning.
+
+### - Windows
+
+>       > pantheon-windows > startChain.bat
+
+### - Linux
+
+>       > pantheon-linux > startChain.sh
+
+Note: use ``` chmod +x startChain.sh ``` and ``` chmod +x pantheon``` to allow geth to execute.
 
 ## Quorum
 ___
