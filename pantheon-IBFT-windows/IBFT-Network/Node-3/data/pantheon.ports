@@ -1,0 +1,3 @@
+#This file contains the ports used by the running instance of Pantheon. This file will be deleted after the node is shutdown.
+#Mon Jun 10 17:19:27 EDT 2019
+json-rpc=8547
