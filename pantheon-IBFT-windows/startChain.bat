@@ -1,6 +1,6 @@
-RD \S \Q %.\IBFT-Network\Node-1\data\database 
-RD \S \Q %.\IBFT-Network\Node-2\data\database 
-RD \S \Q %.\IBFT-Network\Node-3\data\database 
+RD /S /Q % IBFT-Network\Node-1\data\database 
+RD /S /Q % IBFT-Network\Node-2\data\database 
+RD /S /Q % IBFT-Network\Node-3\data\database 
 
 start cmd.exe /K pantheon --data-path=./IBFT-Network/Node-1/data --genesis-file=./IBFT-Network/ibftGenesis.json --permissions-config-file=./IBFT-Network/Node-1/data/permissions_config.toml  --permissions-accounts-enabled --rpc-http-enabled --rpc-http-api=ETH,NET,IBFT,ADMIN,WEB3,PERM --host-whitelist=* --rpc-http-cors-origins="all"
 
