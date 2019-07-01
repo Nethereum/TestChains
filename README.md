@@ -91,7 +91,7 @@ Latest versions of Pantheon can be downloaded [here](https://bintray.com/consens
 
 ### - Mac/Linux
 
->       > pantheon-IBFT-linux-mac > startChain.sh
+>       > pantheon-IBFT-linux > startChain.sh
 
 Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
  
