@@ -1,1 +1,0 @@
-x-terminal-emulator -e ./bin/pantheon --data-path=./IBFT-Network/Node-1/data --genesis-file=./IBFT-Network/ibftGenesis.json --permissions-nodes-config-file-enabled --permissions-accounts-config-file-enabled --rpc-http-enabled --rpc-http-api=ETH,NET,IBFT,PERM,ADMIN,MINER,DEBUG,TXPOOL --host-whitelist=* --rpc-http-cors-origins="all"
