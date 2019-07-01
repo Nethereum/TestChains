@@ -11,7 +11,6 @@ cp ./IBFT-Network/permissions_config.toml ./IBFT-Network/Node-3/data/
 rm -rf ./IBFT-Network/Node-1/data/database
 rm -rf ./IBFT-Network/Node-2/data/database
 rm -rf ./IBFT-Network/Node-3/data/database
-#!/bin/bash
 
 function tab () {
     local cmd=""
