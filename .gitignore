@@ -22,7 +22,7 @@ pantheon-IBFT-linux/IBFT-Network/Node-3/database/*
 pantheon-IBFT-windows/IBFT-Network/Node-1/data/database/*
 pantheon-IBFT-windows/IBFT-Network/Node-2/data/database/*
 pantheon-IBFT-windows/IBFT-Network/Node-3/data/database/*
-# pantheon-IBFT-linux/PegaSys*
-# pantheon-IBFT-linux/pantheon*
-# pantheon-IBFT-linux/bin/
-# pantheon-IBFT-linux/lib/
+pantheon-IBFT-linux/PegaSys*
+pantheon-IBFT-linux/pantheon*
+pantheon-IBFT-linux/bin/
+pantheon-IBFT-linux/lib/
