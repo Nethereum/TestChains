@@ -10,6 +10,8 @@ parity-poa-windows/parity0/chains/*
 pantheon-clique-linux/Clique-Network/Node-1/data/database/*
 pantheon-clique-linux/Clique-Network/Node-2/data/database/*
 pantheon-clique-linux/Clique-Network/Node-3/data/database/*
+pantheon-clique-linux/lib/
+pantheon-clique-linux/bin/
 pantheon-clique-windows/Clique-Network/Node-1/data/database/*
 pantheon-clique-windows/Clique-Network/Node-2/data/database/*
 pantheon-clique-windows/Clique-Network/Node-3/data/database/*
@@ -26,4 +28,3 @@ pantheon-IBFT-linux/PegaSys*
 pantheon-IBFT-linux/pantheon*
 pantheon-IBFT-linux/bin/
 pantheon-IBFT-linux/lib/
-geth-clique-windows/devChain/keystore/
