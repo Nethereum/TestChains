@@ -2,7 +2,7 @@
 
 Developing with Blockchains often requires running a local client (AKA: TestChain or Devchain). Testchains are optimized for development, they keep your work private and speed up transaction validation time.
 
-This repo contains all you need to spin up a local TestChain in a few minutes, whether you need to use `Geth`, `Parity`, `Pantheon`, `Quorum` or `Ganache`. Each of these chains is already configured to use PoA (Proof of Authority) as a consensus model for faster response. They all launch using scripts providing Testchains with funded accounts and passwords. 
+In order to speed up the process, this repo contains all you need to spin up a local TestChain in a few minutes. Each of these chains use PoA (Proof of Authority) as a consensus model for faster response. They all launch using provided scripts, automatically provided with  funded accounts and passwords. 
 
 The preconfigured account used across every Testchain is ```0x12890d2cce102216644c59daE5baed380d84830c``` with private key ```0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7```.
 
@@ -13,13 +13,13 @@ ___
 
 Devchain version of Geth (Ethereum Go client) configured with PoA (Proof of Authority) for fast response.
 
-### - Windows
+### Geth for Windows
 
 Just launch `> > geth-clique-windows > startgeth.bat`
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the latest geth executable and replace the old one.
 
-### - Mac
+### Geth for Mac
 
 Launch `> > geth-clique-mac > startgeth.sh`
 
@@ -27,7 +27,7 @@ Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth 
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
 
-### - Linux
+### Geth for Linux
 
 Launch `> > geth-clique-linux > startgeth.sh`
 
@@ -40,13 +40,13 @@ ___
 
 Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of Authority) for fast response.
 
-### - Windows
+### Parity for Windows
 
 Launch `> > parity-poa-windows > launch.bat`
 
 Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
-### - Mac
+### Parity for Mac
 
 Launch `> > parity-poa-mac > launch.sh`
 
@@ -55,7 +55,7 @@ Latest versions of Parity can be downloaded [here](https://github.com/paritytech
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
-### - Linux
+### Parity for Linux
 
 Launch `> > parity-poa-linux > launch.sh`
 
@@ -63,46 +63,43 @@ Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth t
 
 Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
-## Pantheon
+## Hyperledger-Besu
 ___
 
-Ethereum client developed written in Java. Testchains is setup with Pantheon with Proof of Authority ([IBFT 2.0](https://docs.pantheon.pegasys.tech/en/stable/Consensus-Protocols/IBFT/2.0) and Clique) consensus mechanisms.
-Pantheon supports enterprise features including privacy and permissioning.
+Ethereum client developed written in Java. Testchains is setup with Hyperledger-Besu with Proof of Authority (IBFT 2.0 and Clique) consensus mechanisms.
+Hyperledger-Besu supports enterprise features including privacy and permissioning.
+
+### Hyperledger-Besu for Windows
+
+You will first need to install [Hyperledger-Besu](https://docs.pantheon.pegasys.tech/en/stable/Installation/Install-Binaries/#windows-with-chocolatey)
+
+Latest versions of Hyperledger-Besu can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+
+### Hyperledger-Besu Clique for Windows
+> > hyperledger-besu-clique-windows > startChain.bat
 
 
-### Clique PoA
+### Hyperledger-Besu IBFT PoA for Windows
 
-### - Windows
+> > hyperledger-besu-IBFT-windows > startChain.bat
 
-**Setup**: in order to run Testchains/Pantheon require Java 8+ 
-Launch `> > pantheon-clique-windows > startChain.bat`
 
-Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+### Hyperledger-Besu for Linux
 
-### - Linux
-**Setup**: in order to run Testchains/Pantheon require Java 8+ 
-Make sure to run `> > pantheon-clique-linux > updater.sh` to run the current version of pantheon 
+!!! info
+    Hyperledger-Besu requires Java 8+ to compile
+    Make sure to run `> > hyperledger-besu-clique-linux > updater.sh` to run the current version of hyperledger-besu 
+    
+Latest versions of Hyperledger-Besu can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
 
-Launch `> > pantheon-clique-linux-mac > startChain.sh`
+### Hyperledger-Besu Clique for Linux
 
-Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
+> > hyperledger-besu-clique-linux-mac > startChain.sh
 
-### IBFT PoA
+### Hyperledger-Besu IBFT for Linux
 
-### - Windows
-**Setup**: in order to run Testchains/Pantheon require Java 8+ 
-Launch `> > pantheon-IBFT-windows > startChain.bat`
+> > hyperledger-besu-IBFT-linux > startChain.sh
 
-Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
-
-### - Linux
-**Setup**: in order to run Testchains/Pantheon require Java 8+ 
-Make sure to run `> > pantheon-IBFT-linux > updater.sh` to run the current version of pantheon 
-
-Launch `> > pantheon-IBFT-linux > startChain.sh`
-
-Latest versions of Pantheon can be downloaded [here](https://bintray.com/consensys/pegasys-repo/pantheon).
- 
 ## Ganache
 ___
 
@@ -110,19 +107,19 @@ parity-poa-windows
 
 CLI version of Truffle's devchain.
 
-### Windows
+### Ganache for Windows
 `npm install ganache-cli@latest`
 or
 `yarn add ganache-cli@latest`
 >   ganache-windows    > launch.bat
 
-### Mac
+### Ganache for Mac
 `npm install ganache-cli@latest`
 or
 `yarn add ganache-cli@latest`
 >  ganache-mac    > ./launch.sh
 
-### Linux
+### Ganache for Linux
 `npm install ganache-cli@latest`
 or
 `yarn add ganache-cli@latest`

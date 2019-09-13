@@ -42,5 +42,5 @@ export PATH=$PWD/constellation-0.1.0-ubuntu1604:$PATH
 cd ..
 git clone https://github.com/consensys/QuorumNetworkManager.git
 cd QuorumNetworkManager/
-git checkout e53b5f19504a9884aa3e344be2d2a1c98d2f10d2
+00git checkout e53b5f19504a9884aa3e344be2d2a1c98d2f10d2
 npm install
