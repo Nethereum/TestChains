@@ -1,10 +1,10 @@
-# TestChains
+# Nethereum TestChains
 
-Blockchain developing often requires to run a local Blockchain client (AKA: TestChain or Devchain). This is to make sure your work remains private and that any sent transaction gets a fast response.
+Developing with Blockchains often requires running a local client (AKA: TestChain or Devchain). Testchains are optimized for development, they keep your work private and speed up transaction validation time.
 
 In order to speed up the process, this repo contains all you need to spin up a local TestChain in a few minutes. Each of these chains use PoA (Proof of Authority) as a consensus model for faster response. They all launch using provided scripts, automatically provided with  funded accounts and passwords. 
 
-The preconfigured account is ```0x12890d2cce102216644c59daE5baed380d84830c``` with private key ```0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7```.
+The preconfigured account used across every Testchain is ```0x12890d2cce102216644c59daE5baed380d84830c``` with private key ```0xb5b1870957d373ef0eeffecc6e4812c0fd08f554b37b233526acc331bf1544f7```.
 
 The account key store file password is : ```password```
 
@@ -15,13 +15,13 @@ Devchain version of Geth (Ethereum Go client) configured with PoA (Proof of Auth
 
 ### Geth for Windows
 
-> > geth-clique-windows > startgeth.bat
+Just launch `> > geth-clique-windows > startgeth.bat`
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the latest geth executable and replace the old one.
 
 ### Geth for Mac
 
-> > geth-clique-mac > startgeth.sh
+Launch `> > geth-clique-mac > startgeth.sh`
 
 Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth to execute.
 
@@ -29,11 +29,9 @@ Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downl
 
 ### Geth for Linux
 
-> > geth-clique-linux > startgeth.sh
+Launch `> > geth-clique-linux > startgeth.sh`
 
 Note: use ``` chmod +x startgeth.sh ``` and ``` chmod +x geth ``` to allow geth to execute.
-
-> > ./startgeth.sh
 
 Latest versions of geth can be downloaded [here](https://geth.ethereum.org/downloads/), simply download the geth executable and replace the old one.
 
@@ -44,13 +42,13 @@ Devchain version of Parity (Ethereum Rust client) configured with PoA (Proof of 
 
 ### Parity for Windows
 
-> > parity-poa-windows > launch.bat
+Launch `> > parity-poa-windows > launch.bat`
 
 Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
 ### Parity for Mac
 
-> > parity-poa-mac > launch.sh
+Launch `> > parity-poa-mac > launch.sh`
 
 Latest versions of Parity can be downloaded [here](https://github.com/paritytech/parity-ethereum/releases/latest), simply download the Parity executable and replace the old one.
 
@@ -59,7 +57,7 @@ Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth t
 
 ### Parity for Linux
 
-> > parity-poa-linux > launch.sh
+Launch `> > parity-poa-linux > launch.sh`
 
 Note: use ``` chmod +x launch.sh ``` and ``` chmod +x parity ``` to allow geth to execute.
 
@@ -130,8 +128,7 @@ or
 ## Quorum
 ___
 
-Quorum setup in draft mode.
+[Quorum]{https://github.com/jpmorganchase/quorumsetup} in draft mode.
 
 ### Linux
-
 >   quorum-linux    > ```./setup.sh``` ```./launch.sh```
