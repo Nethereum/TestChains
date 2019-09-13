@@ -1,6 +1,6 @@
-# Getting Started with Pantheon
+# Getting Started with Hyperledger-Besu
 
-After you download and unpackage Pantheon, display the command line help to confirm installation:
+After you download and unpackage Hyperledger-Besu, display the command line help to confirm installation:
 
 1. At the command line, change into the `pantheon-<release>` directory. 
 
@@ -9,9 +9,9 @@ After you download and unpackage Pantheon, display the command line help to conf
     ./bin/pantheon --help
    ```
 
-[Starting Pantheon](https://docs.pantheon.pegasys.tech/en/stable/Getting-Started/Starting-Pantheon/) includes
+[Starting Hyperledger-Besu](https://docs.pantheon.pegasys.tech/en/stable/Getting-Started/Starting-Pantheon/) includes
 command line examples for connecting to MainNet, public testnets, and running a node for testing. 
 
-Pantheon documentation is on the [Pantheon documentation site](https://docs.pantheon.pegasys.tech/en/stable/). 
+Hyperledger-Besu documentation is on the [Hyperledger-Besu documentation site](https://docs.pantheon.pegasys.tech/en/stable/). 
 
->**Note** Starting Pantheon by double-clicking the `pantheon` or `pantheon.bat` executables starts a node synchronizing with the Ethereum mainnet. 
+>**Note** Starting Hyperledger-Besu by double-clicking the `hyperledger-besu` or `hyperledger-besu.bat` executables starts a node synchronizing with the Ethereum mainnet. 

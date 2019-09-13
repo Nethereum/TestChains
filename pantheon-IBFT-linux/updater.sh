@@ -4,10 +4,10 @@ LOCAL_VERSION=$(<version.txt)
 echo current version -"$LATEST_VERSION"- our version -"$LOCAL_VERSION"-
 
 if [ "$LATEST_VERSION"  == "$LOCAL_VERSION" ]; then
-    echo "You are already running the latest version of Pantheon"
+    echo "You are already running the latest version of Hyperledger-Besu"
  exit 0
 else
- echo "Pantheon versions don't match"
+ echo "Hyperledger-Besu versions don't match"
 wget -O pantheon.tar.gz https://bintray.com/consensys/pegasys-repo/download_file?file_path=pantheon-$LATEST_VERSION.tar.gz
 tar -xzvf pantheon.tar.gz
 cp -R ./pantheon*/bin/ ./bin/
