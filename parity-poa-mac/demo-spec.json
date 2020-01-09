@@ -3,7 +3,6 @@
     "engine": {
         "authorityRound": {
             "params": {
-                "gasLimitBoundDivisor": "0x400",
                 "stepDuration": "1",
                 "validators" : {
 								    "list": ["0x12890d2cce102216644c59dae5baed380d84830c"]
@@ -14,15 +13,15 @@
     "params": {
         "maximumExtraDataSize": "0x20",
         "minGasLimit": "0x1388",
-        "networkID" : "0x2323",
+        "networkID" : "0x677AF40754",
         "gasLimitBoundDivisor": "0x400",
-	"eip140Transition": 0,
+		"eip140Transition": 0,
         "eip211Transition": 0,
         "eip214Transition": 0,
         "eip658Transition": 0,
-	"eip145Transition": 0,
-	"eip1014Transition":0,
-	"eip1052Transition":0
+		"eip145Transition": 0,
+		"eip1014Transition":0,
+		"eip1052Transition":0
     },
     "genesis": {
         "seal": {
@@ -32,7 +31,7 @@
             }
         },
         "difficulty": "0x20000",
-        "gasLimit": "0x5B8D80"
+        "gasLimit": "0xed4e0f0"
     },
     "accounts": {
         "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
