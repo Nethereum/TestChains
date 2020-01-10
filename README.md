@@ -124,11 +124,3 @@ or
 or
 `yarn add ganache-cli@latest`
 >   ganache-linux    > ./launch.sh
-
-## Quorum
-___
-
-[Quorum]{https://github.com/jpmorganchase/quorumsetup} in draft mode.
-
-### Linux
->   quorum-linux    > ```./setup.sh``` ```./launch.sh```
